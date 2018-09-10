@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+@import "normalize.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+main ul li a{
+    width: 100%;
+    height: 185px;
+    background-color: #4a4a4a;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+main ul li a:hover{
+    background-color: rgba(74, 73, 74, 0.8);
+}
+
+main ul li.ativo a{
+    background-color: #27ae60;
+}
+
+main ul li span{
+    width: 100%;
+    display: inline-block;
+    padding-left: 95px;
+    position: relative
+}
+
+main ul li span:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: no-repeat url(../img/selecione.png);
+    position: absolute;
+    left: 30px;
+    top: -8px;
+}
+
+main ul li.ativo span:before{
+    background: no-repeat url(../img/selecionado.png);
+} 
+
+main ul li span:after{
+    content: "";
+    width: 17px;
+    height: 30px;
+    background: no-repeat url(../img/arrow-right.png);
+    position: absolute;
+    right: 30px;
+    top: -2px;
+}
+

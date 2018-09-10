@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import "normalize.css";
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+input{
+    border: none;
+    background: transparent;
+}
+
+body{
+    background-color: #745cc1;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+main{
+    width: 250px;
+    margin: 0 auto;
+}
+
+main section{
+    text-align: center;
+}
+
+main section h1{
+    margin: 60px 0 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+form input::placeholder{
+    color: #fff;
+}
+
+form button{
+    cursor: pointer;
+    width: 247px;
+    height: 50px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    border: none;
+    background-color: #ffffff;
+}
+
+main a{
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-top: 10px;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #e6e6e6;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 18px;
+}
+
+main{
+    width: 300px;
+    margin: 0 auto;
+}
+
+main article{
+    background-color: #fff;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px #888888;
+}
+
+main article .box *{
+    margin-top: 10px;
+}
+
+
+main .tit span:first-child,
+main .tit span:last-child{
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+main .tit span:first-child{
+    color: #333333;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+main .tit span:last-child{
+    color: #999999;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+main .box{
+    padding: 0 10px;
+}
+
+main h1 a{
+    color: #b5000d;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+main p a{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+}
