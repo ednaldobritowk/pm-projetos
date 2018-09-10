@@ -9,6 +9,12 @@ a{
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
 body{
     background-color: #e6e6e6;
     font-family: 'Open Sans', sans-serif;
@@ -16,8 +22,7 @@ body{
 }
 
 main{
-    width: 300px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 main article{
