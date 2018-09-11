@@ -40,6 +40,10 @@ main ul li.ativo a{
     background-color: #27ae60;
 }
 
+main ul li.ativo a:hover{
+    background-color: rgba(39, 174, 95, 0.8);
+}
+
 main ul li span{
     width: 100%;
     display: inline-block;
