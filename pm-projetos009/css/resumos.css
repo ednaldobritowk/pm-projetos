@@ -1,0 +1,75 @@
+.resumos{
+    width: 45%;
+    height: 518px;
+    background-color: #ebebeb;
+    padding: 10px;
+    border-left: 1px solid #deddde;
+}    
+
+.resumos .produtos li{
+    display: flex;
+    border-bottom: 1px solid #dadada;
+    padding: 15px 0;
+}
+
+.resumos .produtos li:last-child {
+    border: none;
+}
+
+.resumos .produtos li .detalhes{
+    width: 80%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resumos .produtos li .detalhes h3{
+    color: #777879;
+    font-size: 12px;
+    font-family: 'muliextrabold';
+    margin-bottom: 4px;
+}
+
+.resumos .produtos li .detalhes small{
+    font-size: 10px;
+    color: #9c9c9c;
+    margin-bottom: 3px;
+    font-style: italic;
+}
+
+.resumos .produtos li .detalhes span{
+    color: #9c9c9c;
+    font-size: 10px;
+    font-family: 'muliextrabold';
+}
+
+.resumos .produtos li .preco {
+    color: #777879;
+    font-size: 12px;
+    font-family: 'muliextrabold';
+}
+
+.resumos table{
+    width: 100%;
+    border-top: 1px solid #d6d4d7;
+    border-spacing: 0;
+    color: #777879;
+    font-size: 12px;
+    margin-top: 68px;
+}
+
+.resumos table th{
+    text-align: left;
+}
+
+.resumos table td{
+    text-align: right;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.resumos table tfoot *{
+    border-top: 1px solid #d6d4d7; 
+    font-family: 'muliextrabold';
+    padding-top: 7px;
+}

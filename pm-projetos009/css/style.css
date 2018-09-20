@@ -1,0 +1,80 @@
+@import "normalize.css";
+@import "header.css";
+@import "cartao.css";
+@import "resumos.css";
+
+h1, h2, h3, *, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+li{
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'muliextrabold';
+    src: url('fonts/muli/muli-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/muli/muli-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muliextralight_italic';
+    src: url('fonts/muli/muli-extralightitalic-webfont.woff2') format('woff2'),
+         url('fonts/muli/muli-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('fonts/muli/muli-regular-webfont.woff2') format('woff2'),
+         url('fonts/muli/muli-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'muliregular', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.checkout{
+    width: 688px;
+    height: 558px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.27);
+}
+
+.checkout main{
+    display: flex;
+}
+
+.checkout header{
+    height: 40px;
+}
+
+.cartao{
+    height: 100px;
+    width: 55%;
+}
